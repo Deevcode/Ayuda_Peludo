@@ -35,8 +35,8 @@
        </form>
     </header>
     <br>
-  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->  
-  <!--Formulario de contacto-->    
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->  
+    <!--Formulario de contacto-->    
     <center>
       <div class="card">
         <div class="card-body">
@@ -100,11 +100,11 @@
           
             <!--Rut o Pasaporte-->
             <div class="form-group">
-              <label class="col-md-4 control-label">RUN o N° de pasaporte</label>  
+              <label for="rut" class="col-md-4 control-label">RUN o N° de pasaporte</label>  
               <div class="col-md-4 inputGroupContainer">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                  <input name="phone" placeholder="xx.xxx.xxx-x" class="form-control" type="text">
+                  <input type="text" id="rut" name="rut" required oninput="checkRut(this)" placeholder="Ingrese RUT">
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@
                 <div class="input-group">
                   <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
                   <select name="state" class="form-control selectpicker" >
-                    <option value=" " >Porfavor selecciona tu Region</option>
+                    <option value=" " >Selecciona tu Region</option>
                     <option >Region Metropolitana de Santiago</option>
                     <option>Region de Arica y Paranicota</option>
                     <option>Region de Tarapaca</option>
@@ -174,9 +174,9 @@
         </div>
       </div>
     </center>
-  <!--Fin del formulario-->
-  <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------> 
-
+    <!--Fin del formulario-->
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------> 
+  
     
     <!-- Optional JavaScript; choose one of the two! -->
 
