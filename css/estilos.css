@@ -38,8 +38,21 @@ header {
   margin-right: 5px;
 }
 label{
-  color: seashell;
+  color: rgb(0, 0, 0);
+  text-align: left;
 }
 legend{
-  color: aliceblue;
+  color: rgb(0, 0, 0);
+}
+.radio {
+  text-align: justify;
+}
+.card {
+  width: 600px;
+  border: 2px solid rgba(2, 255, 2, 0.799);
+  padding: 1px;
+  margin: 1px;
+  height: 730px;
+  opacity: 80%;
+  display: flex;
 }
